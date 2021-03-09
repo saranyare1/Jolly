@@ -1,0 +1,91 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav,
+#projectAnchor,
+#contactAnchor {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: transparent;
+    box-shadow: 0px 2px 20px #2e3555;
+    transition: background-color 1s ease 0s;
+}
+
+.navbar.solid {
+    transition: background-color 1s ease 0s;
+}
+
+.card-img-top {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+}
+
+.card-body {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#signupbox {
+    border-color: #00FFFF;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#projectAnchor {
+    margin-left: 5rem;
+}
+
+#carouselExampleCaptions {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    background-color: #ffffe6;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer p,
+footer a {
+    font-size: 1em;
+}
+
+footer p {
+    color: #fffff0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fffff0;
+}
+
+i {
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
